@@ -161,9 +161,3 @@ with tf.Session() as sess:
 # Visualizing the newly generated image
 plt.imshow(new_samples[0].reshape(28,28), cmap='Greys')
 plt.show()
-
-
-# In[ ]:
-
-
-
